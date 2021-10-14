@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+/* 
+Playfair Display
+Poppins
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    color: rgb(45,32,59);
+}
+
+body{
+    background-color: rgb(237,240,226);
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    font-family: Playfair Display;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-size: 4rem;
+    width: 360px;
+    font-weight: lighter;
+}
+
+p{
+    position: absolute;
+    width: 370px;
+    top: 350px;
+    left: 100px;
+    font-weight: lighter;
+}
+
+span{
+    border: 1px solid rgb(255,169,0);
+    padding: 13px 100px;
+    background-color: rgb(255,169,0);
+    border-radius: 25px;
+    position: absolute;
+    top: 450px;
+    left: 130px;
+}
+
+img{
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 75px;
+    right: 250px;
+}
